@@ -1,0 +1,32 @@
+schema_version = "1.0.0"
+
+id = "cubana_map_exporter"
+version = "1.0.0"
+name = "Cubana Map Exporter"
+tagline = "Exports current scene to cubana map format"
+maintainer = "Michał Gallus michal.gallus@gmail.com"
+type = "add-on"
+website = "https://github.com/Sand3r-/cubana_map_exporter"
+tags = ["Import-Export"]
+
+blender_version_min = "4.2.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+copyright = [
+  "2025 Michał Gallus",
+]
+
+# # Optional: bundle 3rd party Python modules.
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/python_wheels.html
+# wheels = [
+#   "./wheels/hexdump-3.3-py3-none-any.whl",
+#   "./wheels/jsmin-3.0.1-py3-none-any.whl",
+# ]
+
+[permissions]
+files = "Import/export .cbm/.ctm files from/to disk"
