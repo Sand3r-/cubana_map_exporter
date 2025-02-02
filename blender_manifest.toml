@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "cubana_map_exporter"
-version = "1.0.0"
+version = "1.0.1"
 name = "Cubana Map Exporter"
 tagline = "Exports current scene to cubana map format"
 maintainer = "Michał Gallus michal.gallus@gmail.com"

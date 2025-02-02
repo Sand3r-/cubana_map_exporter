@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Cubana Map Exporter",
     "author": "Michał Gallus",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (4, 2, 0),
     "location": "File > Export",
     "description": "Exports current scene to Cubana Map format (.cbm / .ctm)",
